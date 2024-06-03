@@ -1,5 +1,6 @@
 using DataAccess;
 using DataAccess.Auth;
+using DataAccess.Product;
 using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,6 +24,13 @@ builder.Services.AddScoped<AuthManagementRepository>(sp =>
 {
     var dbContext = sp.GetRequiredService<OracleDbContext>();
     return new AuthManagementRepository(dbContext);
+});
+
+// Configure dependency injection for ProductRepository
+builder.Services.AddScoped<ProductRepository>(sp =>
+{
+    var dbContext = sp.GetRequiredService<OracleDbContext>();
+    return new ProductRepository(dbContext);
 });
 
 // CORS

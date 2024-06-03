@@ -482,3 +482,8 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+/WebAPI/bin/Debug/net8.0/DataAccess.dll
+/WebAPI/bin/Debug/net8.0/DataAccess.pdb
+/WebAPI/bin/Debug/net8.0/WebAPI.dll
+/WebAPI/bin/Debug/net8.0/WebAPI.exe
+/WebAPI/bin/Debug/net8.0/WebAPI.pdb
