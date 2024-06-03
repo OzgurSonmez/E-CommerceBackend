@@ -10,4 +10,8 @@
     <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Entity\Entity.csproj" />
+  </ItemGroup>
+
 </Project>

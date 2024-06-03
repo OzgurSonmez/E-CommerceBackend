@@ -1,4 +1,6 @@
 using DataAccess;
+using DataAccess.Auth;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +18,23 @@ builder.Services.AddSingleton<OracleDbContext>(sp =>
     return new OracleDbContext(connectionString);
 });
 
-//builder.Services.AddScoped<EMailDal>();
+// Configure dependency injection for AuthManagementRepository
+builder.Services.AddScoped<AuthManagementRepository>(sp =>
+{
+    var dbContext = sp.GetRequiredService<OracleDbContext>();
+    return new AuthManagementRepository(dbContext);
+});
+
+// CORS
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.WithOrigins("http://localhost:3000") 
+               .AllowAnyHeader()
+               .AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
@@ -28,6 +46,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// CORS middleware'ini kullan
+app.UseCors();
 
 app.UseAuthorization();
 
