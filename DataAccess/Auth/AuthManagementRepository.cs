@@ -46,5 +46,24 @@ namespace DataAccess.Auth
                 }
             }
         }
+
+        public async Task ChangePassword(ChangePasswordDto changePasswordDto)
+        {
+            using (OracleConnection conn = _dbContext.GetConnection())
+            {
+                string query = "declare  v_changePassword changePassword_type := changePassword_type(:emailAddress , :currentPassword, :newPassword); begin  authManagement_pkg.changePassword(p_changePassword => v_changePassword);  end;";
+                using (OracleCommand command = new OracleCommand(query, conn))
+                {
+                    command.Parameters.Add("emailAddress", OracleDbType.Varchar2).Value = changePasswordDto.EmailAddress;
+                    command.Parameters.Add("currentPassword", OracleDbType.Varchar2).Value = changePasswordDto.currentPassword;
+                    command.Parameters.Add("newPassword", OracleDbType.Varchar2).Value = changePasswordDto.newPassword;
+
+                    conn.Open();
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+
+
     }
 }

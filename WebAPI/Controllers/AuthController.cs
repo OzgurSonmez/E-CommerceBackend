@@ -9,11 +9,11 @@ namespace WebAPI.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-        private readonly AuthManagementRepository _authRepository;
+        private readonly AuthManagementRepository _authManagementRepository;
 
-        public AuthController(AuthManagementRepository authRepository)
+        public AuthController(AuthManagementRepository authManagementRepository)
         {
-            _authRepository = authRepository;
+            _authManagementRepository = authManagementRepository;
         }
 
         [HttpPost("register")]
@@ -26,7 +26,7 @@ namespace WebAPI.Controllers
 
             try
             {
-                await _authRepository.Register(registerDto);
+                await _authManagementRepository.Register(registerDto);
                 return Ok(new { Message = "Registration successful." });
             }
             catch (Exception ex)
@@ -45,7 +45,7 @@ namespace WebAPI.Controllers
 
             try
             {
-                await _authRepository.Login(loginDto);
+                await _authManagementRepository.Login(loginDto);
                 return Ok(new { Message = "Login successful." });
             }
             catch (Exception ex)
@@ -53,5 +53,25 @@ namespace WebAPI.Controllers
                 return StatusCode(500, new { Message = ex.Message });
             }
         }
+
+        [HttpPost("changePassword")]
+        public async Task<IActionResult> ChangePassword([FromBody] ChangePasswordDto changePasswordDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            try
+            {
+                await _authManagementRepository.ChangePassword(changePasswordDto);
+                return Ok(new { Message = "Password change successful." });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = ex.Message });
+            }
+        }
+
     }
 }
