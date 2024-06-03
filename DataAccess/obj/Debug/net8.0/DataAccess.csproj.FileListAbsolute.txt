@@ -10,3 +10,7 @@ C:\SoftwareDevelopment\AGITO\Project\E-Commerce-Project-Backend\DataAccess\obj\D
 C:\SoftwareDevelopment\AGITO\Project\E-Commerce-Project-Backend\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
 C:\SoftwareDevelopment\AGITO\Project\E-Commerce-Project-Backend\DataAccess\obj\Debug\net8.0\DataAccess.pdb
 C:\SoftwareDevelopment\AGITO\Project\E-Commerce-Project-Backend\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\SoftwareDevelopment\AGITO\Project\E-Commerce-Project-Backend\DataAccess\bin\Debug\net8.0\Entity.dll
+C:\SoftwareDevelopment\AGITO\Project\E-Commerce-Project-Backend\DataAccess\bin\Debug\net8.0\Entity.pdb
+C:\SoftwareDevelopment\AGITO\Project\E-Commerce-Project-Backend\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
+C:\SoftwareDevelopment\AGITO\Project\E-Commerce-Project-Backend\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date

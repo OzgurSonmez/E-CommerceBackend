@@ -151,10 +151,16 @@
       },
       "DataAccess/1.0.0": {
         "dependencies": {
+          "Entity": "1.0.0",
           "Oracle.ManagedDataAccess.Core": "23.4.0"
         },
         "runtime": {
           "DataAccess.dll": {}
+        }
+      },
+      "Entity/1.0.0": {
+        "runtime": {
+          "Entity.dll": {}
         }
       }
     }
@@ -264,6 +270,11 @@
       "hashPath": "system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
     },
     "DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Entity/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
