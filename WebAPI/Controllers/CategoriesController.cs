@@ -17,7 +17,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("getCategories")]
-        public async Task<IActionResult> GetFilteredProducts()
+        public async Task<IActionResult> GetCategories()
         {
             if (!ModelState.IsValid)
             {

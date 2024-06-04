@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\webapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEF5CAE9-FAF4-486E-9BE7-4B2A7859CA9C}|Entity\\Entity.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\entity\\dtos\\category\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEF5CAE9-FAF4-486E-9BE7-4B2A7859CA9C}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\category\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEF5CAE9-FAF4-486E-9BE7-4B2A7859CA9C}|Entity\\Entity.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\entity\\dtos\\brand\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF5CAE9-FAF4-486E-9BE7-4B2A7859CA9C}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\brand\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CACEDADF-D408-403E-8BAD-EBDF5A99C306}|DataAccess\\DataAccess.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\dataaccess\\category\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CACEDADF-D408-403E-8BAD-EBDF5A99C306}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\category\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\webapi\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CACEDADF-D408-403E-8BAD-EBDF5A99C306}|DataAccess\\DataAccess.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\dataaccess\\product\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CACEDADF-D408-403E-8BAD-EBDF5A99C306}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\product\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CACEDADF-D408-403E-8BAD-EBDF5A99C306}|DataAccess\\DataAccess.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\dataaccess\\brand\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACEDADF-D408-403E-8BAD-EBDF5A99C306}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\brand\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\webapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 254,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,64 +42,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "BrandDto.cs",
+              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\Entity\\DTOs\\Brand\\BrandDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\Brand\\BrandDto.cs",
+              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\Entity\\DTOs\\Brand\\BrandDto.cs",
+              "RelativeToolTip": "Entity\\DTOs\\Brand\\BrandDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T05:57:02.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "WebAPI\\Program.cs",
               "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Program.cs",
               "RelativeToolTip": "WebAPI\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAswCkAAAADAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAswDAAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T21:00:05.578Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAkwB4AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T20:58:01.14Z",
+              "WhenOpened": "2024-06-04T05:55:54.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\DataAccess\\Product\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Product\\ProductRepository.cs",
-              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\DataAccess\\Product\\ProductRepository.cs",
-              "RelativeToolTip": "DataAccess\\Product\\ProductRepository.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAowEIAAAAJAAAA",
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T20:53:48.89Z"
+              "WhenOpened": "2024-06-04T05:53:31.21Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryDto.cs",
-              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\Entity\\DTOs\\Category\\CategoryDto.cs",
-              "RelativeDocumentMoniker": "Entity\\DTOs\\Category\\CategoryDto.cs",
-              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\Entity\\DTOs\\Category\\CategoryDto.cs",
-              "RelativeToolTip": "Entity\\DTOs\\Category\\CategoryDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
+              "DocumentIndex": 2,
+              "Title": "BrandsController.cs",
+              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\BrandsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\BrandsController.cs",
+              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\BrandsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\BrandsController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAmwB4AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T20:53:18.483Z"
+              "WhenOpened": "2024-06-04T05:53:25.313Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\DataAccess\\Category\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Category\\CategoryRepository.cs",
-              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\DataAccess\\Category\\CategoryRepository.cs",
-              "RelativeToolTip": "DataAccess\\Category\\CategoryRepository.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAowCwAAAARAAAA",
+              "Title": "BrandRepository.cs",
+              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\DataAccess\\Brand\\BrandRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Brand\\BrandRepository.cs",
+              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\DataAccess\\Brand\\BrandRepository.cs",
+              "RelativeToolTip": "DataAccess\\Brand\\BrandRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T20:46:14.445Z"
+              "WhenOpened": "2024-06-04T05:50:31.232Z",
+              "EditorCaption": ""
             }
           ]
         }

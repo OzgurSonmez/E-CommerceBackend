@@ -1,5 +1,6 @@
 using DataAccess;
 using DataAccess.Auth;
+using DataAccess.Brand;
 using DataAccess.Category;
 using DataAccess.Product;
 using Microsoft.Extensions.DependencyInjection;
@@ -39,6 +40,13 @@ builder.Services.AddScoped<CategoryRepository>(sp =>
 {
     var dbContext = sp.GetRequiredService<OracleDbContext>();
     return new CategoryRepository(dbContext);
+});
+
+// Configure dependency injection for BrandRepository
+builder.Services.AddScoped<BrandRepository>(sp =>
+{
+    var dbContext = sp.GetRequiredService<OracleDbContext>();
+    return new BrandRepository(dbContext);
 });
 
 // CORS
