@@ -43,3 +43,4 @@ C:\SoftwareDevelopment\AGITO\Project\E-Commerce-Project-Backend\WebAPI\bin\Debug
 C:\SoftwareDevelopment\AGITO\Project\E-Commerce-Project-Backend\WebAPI\bin\Debug\net8.0\Entity.dll
 C:\SoftwareDevelopment\AGITO\Project\E-Commerce-Project-Backend\WebAPI\bin\Debug\net8.0\Entity.pdb
 C:\SoftwareDevelopment\AGITO\Project\E-Commerce-Project-Backend\WebAPI\obj\Debug\net8.0\WebAPI.sourcelink.json
+C:\SoftwareDevelopment\AGITO\Project\E-Commerce-Project-Backend\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs

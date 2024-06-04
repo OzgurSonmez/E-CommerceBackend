@@ -2,6 +2,7 @@ using DataAccess;
 using DataAccess.Auth;
 using DataAccess.Brand;
 using DataAccess.Category;
+using DataAccess.Customer;
 using DataAccess.Email;
 using DataAccess.Product;
 using Microsoft.Extensions.DependencyInjection;
@@ -55,6 +56,13 @@ builder.Services.AddScoped<EmailRepository>(sp =>
 {
     var dbContext = sp.GetRequiredService<OracleDbContext>();
     return new EmailRepository(dbContext);
+});
+
+// Configure dependency injection for CustomerRepository
+builder.Services.AddScoped<CustomerRepository>(sp =>
+{
+    var dbContext = sp.GetRequiredService<OracleDbContext>();
+    return new CustomerRepository(dbContext);
 });
 
 // CORS
