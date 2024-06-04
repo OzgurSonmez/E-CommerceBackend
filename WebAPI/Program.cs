@@ -7,6 +7,7 @@ using DataAccess.Category;
 using DataAccess.Customer;
 using DataAccess.DeliveryAddress;
 using DataAccess.Email;
+using DataAccess.OrderManagement;
 using DataAccess.Product;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -88,6 +89,14 @@ builder.Services.AddScoped<DeliveryAddressRepository>(sp =>
     var dbContext = sp.GetRequiredService<OracleDbContext>();
     return new DeliveryAddressRepository(dbContext);
 });
+
+// Configure dependency injection for OrderManagementRepository
+builder.Services.AddScoped<OrderManagementRepository>(sp =>
+{
+    var dbContext = sp.GetRequiredService<OracleDbContext>();
+    return new OrderManagementRepository(dbContext);
+});
+
 
 // CORS
 builder.Services.AddCors(options =>

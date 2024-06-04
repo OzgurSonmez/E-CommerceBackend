@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CACEDADF-D408-403E-8BAD-EBDF5A99C306}|DataAccess\\DataAccess.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\dataaccess\\deliveryaddress\\deliveryaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CACEDADF-D408-403E-8BAD-EBDF5A99C306}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\deliveryaddress\\deliveryaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\webapi\\controllers\\deliveryaddressescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\deliveryaddressescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\webapi\\controllers\\basketproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\basketproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\webapi\\controllers\\ordermanagementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\ordermanagementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 254,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,54 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
-              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Program.cs",
-              "RelativeToolTip": "WebAPI\\Program.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAADgv1gAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T14:23:52.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BasketProductsController.cs",
-              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\BasketProductsController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\BasketProductsController.cs",
-              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\BasketProductsController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\BasketProductsController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T14:59:45.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DeliveryAddressesController.cs",
-              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\DeliveryAddressesController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\DeliveryAddressesController.cs",
-              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\DeliveryAddressesController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\DeliveryAddressesController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAuwCQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T14:59:04.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DeliveryAddressRepository.cs",
-              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\DataAccess\\DeliveryAddress\\DeliveryAddressRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\DeliveryAddress\\DeliveryAddressRepository.cs",
-              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\DataAccess\\DeliveryAddress\\DeliveryAddressRepository.cs*",
-              "RelativeToolTip": "DataAccess\\DeliveryAddress\\DeliveryAddressRepository.cs*",
-              "ViewState": "AQIAABcAAAAAAAAAAIAwwCgAAAA4AAAA",
+              "Title": "OrderManagementsController.cs",
+              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\OrderManagementsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\OrderManagementsController.cs",
+              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\OrderManagementsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\OrderManagementsController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBQAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T14:54:14.05Z",
+              "WhenOpened": "2024-06-04T15:59:02.279Z",
               "EditorCaption": ""
             }
           ]
