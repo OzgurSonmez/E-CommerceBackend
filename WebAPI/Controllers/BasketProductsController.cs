@@ -93,5 +93,24 @@ namespace WebAPI.Controllers
                 return StatusCode(500, new { Message = ex.Message });
             }
         }
+
+        [HttpPost("reverseSelectedStatusOfTheProductInBasket")]
+        public async Task<IActionResult> ReverseSelectedStatusOfTheProductInBasket([FromQuery] int basketId, int productId)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            try
+            {
+                await _basketProductRepository.ReverseSelectedStatusOfTheProductInBasket(basketId, productId);
+                return Ok(new { Message = "Reverse selected status of product in basket successful." });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = ex.Message });
+            }
+        }
     }
 }

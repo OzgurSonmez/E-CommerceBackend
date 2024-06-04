@@ -106,5 +106,24 @@ namespace DataAccess.BasketProduct
                 }
             }
         }
+
+
+        public async Task ReverseSelectedStatusOfTheProductInBasket(int basketId, int productId)
+        {
+            using (OracleConnection conn = _dbContext.GetConnection())
+            {
+                string query = "declare  p_basketId number := :v_basketId; p_productId number := :v_productId; begin  basketProductManager_pkg.reverseSelectedStatusOfTheProductInBasket(p_basketId,p_productId); end;";
+                using (OracleCommand command = new OracleCommand(query, conn))
+                {
+                    command.Parameters.Add("basketId", OracleDbType.Varchar2).Value = basketId;
+                    command.Parameters.Add("productId", OracleDbType.Varchar2).Value = productId;
+
+
+                    conn.Open();
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+
     }
 }
