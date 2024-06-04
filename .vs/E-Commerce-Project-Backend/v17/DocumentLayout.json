@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\webapi\\controllers\\ordermanagementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\ordermanagementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\webapi\\controllers\\customerorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\customerorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF5CAE9-FAF4-486E-9BE7-4B2A7859CA9C}|Entity\\Entity.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\entity\\dtos\\customerorderdetail\\customerorderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF5CAE9-FAF4-486E-9BE7-4B2A7859CA9C}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\customerorderdetail\\customerorderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF5CAE9-FAF4-486E-9BE7-4B2A7859CA9C}|Entity\\Entity.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\entity\\dtos\\customerorder\\customerorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF5CAE9-FAF4-486E-9BE7-4B2A7859CA9C}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\customerorder\\customerorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +35,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderManagementsController.cs",
-              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\OrderManagementsController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\OrderManagementsController.cs",
-              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\OrderManagementsController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\OrderManagementsController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBQAAAA2AAAA",
+              "Title": "CustomerOrdersController.cs",
+              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\CustomerOrdersController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CustomerOrdersController.cs",
+              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\CustomerOrdersController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\CustomerOrdersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T15:59:02.279Z",
+              "WhenOpened": "2024-06-04T17:50:30.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerOrderDetailDto.cs",
+              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\Entity\\DTOs\\CustomerOrderDetail\\CustomerOrderDetailDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\CustomerOrderDetail\\CustomerOrderDetailDto.cs",
+              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\Entity\\DTOs\\CustomerOrderDetail\\CustomerOrderDetailDto.cs",
+              "RelativeToolTip": "Entity\\DTOs\\CustomerOrderDetail\\CustomerOrderDetailDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T17:43:49.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerOrderDto.cs",
+              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\Entity\\DTOs\\CustomerOrder\\CustomerOrderDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\CustomerOrder\\CustomerOrderDto.cs",
+              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\Entity\\DTOs\\CustomerOrder\\CustomerOrderDto.cs",
+              "RelativeToolTip": "Entity\\DTOs\\CustomerOrder\\CustomerOrderDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T17:42:41.037Z",
               "EditorCaption": ""
             }
           ]

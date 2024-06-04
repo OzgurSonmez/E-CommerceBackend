@@ -5,6 +5,8 @@ using DataAccess.BasketProduct;
 using DataAccess.Brand;
 using DataAccess.Category;
 using DataAccess.Customer;
+using DataAccess.CustomerOrder;
+using DataAccess.CustomerOrderDetail;
 using DataAccess.DeliveryAddress;
 using DataAccess.Email;
 using DataAccess.OrderManagement;
@@ -95,6 +97,20 @@ builder.Services.AddScoped<OrderManagementRepository>(sp =>
 {
     var dbContext = sp.GetRequiredService<OracleDbContext>();
     return new OrderManagementRepository(dbContext);
+});
+
+// Configure dependency injection for CustomerOrderRepository
+builder.Services.AddScoped<CustomerOrderRepository>(sp =>
+{
+    var dbContext = sp.GetRequiredService<OracleDbContext>();
+    return new CustomerOrderRepository(dbContext);
+});
+
+// Configure dependency injection for CustomerOrderDetailRepository
+builder.Services.AddScoped<CustomerOrderDetailRepository>(sp =>
+{
+    var dbContext = sp.GetRequiredService<OracleDbContext>();
+    return new CustomerOrderDetailRepository(dbContext);
 });
 
 
