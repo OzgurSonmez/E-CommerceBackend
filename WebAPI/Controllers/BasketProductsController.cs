@@ -8,11 +8,11 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class BasketProductController : ControllerBase
+    public class BasketProductsController : ControllerBase
     {
         private readonly BasketProductRepository _basketProductRepository;
 
-        public BasketProductController(BasketProductRepository basketProductRepository)
+        public BasketProductsController(BasketProductRepository basketProductRepository)
         {
             _basketProductRepository = basketProductRepository;
         }

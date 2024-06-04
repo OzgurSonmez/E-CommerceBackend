@@ -1,5 +1,6 @@
 using DataAccess;
 using DataAccess.Auth;
+using DataAccess.Basket;
 using DataAccess.BasketProduct;
 using DataAccess.Brand;
 using DataAccess.Category;
@@ -71,6 +72,13 @@ builder.Services.AddScoped<BasketProductRepository>(sp =>
 {
     var dbContext = sp.GetRequiredService<OracleDbContext>();
     return new BasketProductRepository(dbContext);
+});
+
+// Configure dependency injection for BasketRepository
+builder.Services.AddScoped<BasketRepository>(sp =>
+{
+    var dbContext = sp.GetRequiredService<OracleDbContext>();
+    return new BasketRepository(dbContext);
 });
 
 // CORS
