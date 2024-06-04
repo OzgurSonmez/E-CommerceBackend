@@ -1,5 +1,6 @@
 ﻿using DataAccess.BasketProduct;
 using DataAccess.Product;
+using Entity.DTOs.BasketProduct;
 using Entity.DTOs.Product;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -29,6 +30,25 @@ namespace WebAPI.Controllers
             {
                 var basketProducts = await _basketProductRepository.GetBasketProductByCustomerId(customerId);
                 return Ok(basketProducts);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = ex.Message });
+            }
+        }
+
+        [HttpPost("addProductToBasket")]
+        public async Task<IActionResult> AddProductToBasket([FromQuery] AddProductToBasketRequest addProductToBasketRequest)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            try
+            {
+                await _basketProductRepository.AddProductToBasket(addProductToBasketRequest);
+                return Ok(new { Message = "Add product to basket successful." });
             }
             catch (Exception ex)
             {

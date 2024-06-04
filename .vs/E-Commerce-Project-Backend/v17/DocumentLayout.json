@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\basketproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\webapi\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEF5CAE9-FAF4-486E-9BE7-4B2A7859CA9C}|Entity\\Entity.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\entity\\dtos\\basketproduct\\addproducttobasketrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF5CAE9-FAF4-486E-9BE7-4B2A7859CA9C}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\basketproduct\\addproducttobasketrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CACEDADF-D408-403E-8BAD-EBDF5A99C306}|DataAccess\\DataAccess.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\dataaccess\\basket\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CACEDADF-D408-403E-8BAD-EBDF5A99C306}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\basket\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F96B16-74A4-4B67-AE09-3753E572665B}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CACEDADF-D408-403E-8BAD-EBDF5A99C306}|DataAccess\\DataAccess.csproj|c:\\softwaredevelopment\\agito\\project\\e-commerce-project-backend\\dataaccess\\basketproduct\\basketproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACEDADF-D408-403E-8BAD-EBDF5A99C306}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\basketproduct\\basketproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 254,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,41 +38,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddProductToBasketRequest.cs",
+              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\Entity\\DTOs\\BasketProduct\\AddProductToBasketRequest.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\BasketProduct\\AddProductToBasketRequest.cs",
+              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\Entity\\DTOs\\BasketProduct\\AddProductToBasketRequest.cs",
+              "RelativeToolTip": "Entity\\DTOs\\BasketProduct\\AddProductToBasketRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T12:26:08.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T12:16:14.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BasketProductsController.cs",
               "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\BasketProductsController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\BasketProductsController.cs",
               "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\BasketProductsController.cs",
               "RelativeToolTip": "WebAPI\\Controllers\\BasketProductsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAwC8AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T11:32:50.506Z",
+              "WhenOpened": "2024-06-04T12:13:34.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BasketsController.cs",
-              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\BasketsController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\BasketsController.cs",
-              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\WebAPI\\Controllers\\BasketsController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\BasketsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "DocumentIndex": 3,
+              "Title": "BasketProductRepository.cs",
+              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\DataAccess\\BasketProduct\\BasketProductRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\BasketProduct\\BasketProductRepository.cs",
+              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\DataAccess\\BasketProduct\\BasketProductRepository.cs",
+              "RelativeToolTip": "DataAccess\\BasketProduct\\BasketProductRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAxwDoAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T11:32:28.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BasketRepository.cs",
-              "DocumentMoniker": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\DataAccess\\Basket\\BasketRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Basket\\BasketRepository.cs",
-              "ToolTip": "C:\\SoftwareDevelopment\\AGITO\\Project\\E-Commerce-Project-Backend\\DataAccess\\Basket\\BasketRepository.cs",
-              "RelativeToolTip": "DataAccess\\Basket\\BasketRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAB0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T11:28:50.413Z",
+              "WhenOpened": "2024-06-04T12:08:03.403Z",
               "EditorCaption": ""
             }
           ]

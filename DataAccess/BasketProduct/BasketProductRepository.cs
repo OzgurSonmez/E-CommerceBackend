@@ -1,4 +1,5 @@
 ﻿using System.Data;
+using Entity.DTOs.Auth;
 using Entity.DTOs.BasketProduct;
 using Entity.DTOs.Product;
 using Oracle.ManagedDataAccess.Client;
@@ -51,6 +52,24 @@ namespace DataAccess.BasketProduct
             }
 
             return result;
+        }
+
+        public async Task AddProductToBasket(AddProductToBasketRequest addProductToBasketRequest)
+        {
+            using (OracleConnection conn = _dbContext.GetConnection())
+            {
+                string query = "declare v_basketProduct basketProduct_type := basketProduct_type(:basketId, :productId, :productQuantity, :isSelected); begin  basketProductManager_pkg.addProductToBasket(v_basketProduct); end;";
+                using (OracleCommand command = new OracleCommand(query, conn))
+                {
+                    command.Parameters.Add("basketId", OracleDbType.Varchar2).Value = addProductToBasketRequest.BasketId;
+                    command.Parameters.Add("productId", OracleDbType.Varchar2).Value = addProductToBasketRequest.ProductId;
+                    command.Parameters.Add("productQuantity", OracleDbType.Varchar2).Value = addProductToBasketRequest.ProductQuantity;
+                    command.Parameters.Add("isSelected", OracleDbType.Varchar2).Value = addProductToBasketRequest.IsSelected;
+
+                    conn.Open();
+                    command.ExecuteNonQuery();
+                }
+            }
         }
     }
 }
