@@ -79,8 +79,8 @@ namespace DataAccess.BasketProduct
                 string query = "declare  p_basketId number := :v_basketId; p_productId number := :v_productId; begin  basketProductManager_pkg.deleteProductFromBasket(p_basketId,p_productId); end;";
                 using (OracleCommand command = new OracleCommand(query, conn))
                 {
-                    command.Parameters.Add("basketId", OracleDbType.Varchar2).Value = basketId;
-                    command.Parameters.Add("productId", OracleDbType.Varchar2).Value = productId;
+                    command.Parameters.Add("v_basketId", OracleDbType.Int32).Value = basketId;
+                    command.Parameters.Add("v_productId", OracleDbType.Int32).Value = productId;
 
 
                     conn.Open();

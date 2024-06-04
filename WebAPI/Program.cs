@@ -7,6 +7,7 @@ using DataAccess.Category;
 using DataAccess.Customer;
 using DataAccess.CustomerOrder;
 using DataAccess.CustomerOrderDetail;
+using DataAccess.CustomerProductFavorite;
 using DataAccess.DeliveryAddress;
 using DataAccess.Email;
 using DataAccess.OrderManagement;
@@ -111,6 +112,13 @@ builder.Services.AddScoped<CustomerOrderDetailRepository>(sp =>
 {
     var dbContext = sp.GetRequiredService<OracleDbContext>();
     return new CustomerOrderDetailRepository(dbContext);
+});
+
+// Configure dependency injection for CustomerOrderDetailRepository
+builder.Services.AddScoped<CustomerProductFavoriteRepository>(sp =>
+{
+    var dbContext = sp.GetRequiredService<OracleDbContext>();
+    return new CustomerProductFavoriteRepository(dbContext);
 });
 
 
