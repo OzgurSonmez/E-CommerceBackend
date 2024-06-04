@@ -55,5 +55,43 @@ namespace WebAPI.Controllers
                 return StatusCode(500, new { Message = ex.Message });
             }
         }
+
+        [HttpPost("deleteProductToBasket")]
+        public async Task<IActionResult> DeleteProductToBasket([FromQuery] int basketId, int productId)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            try
+            {
+                await _basketProductRepository.DeleteproductToBasket(basketId, productId);
+                return Ok(new { Message = "Delete product to basket successful." });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = ex.Message });
+            }
+        }
+
+        [HttpPost("decreaseProductToBasket")]
+        public async Task<IActionResult> DecreaseProductToBasket([FromQuery] AddProductToBasketRequest addProductToBasketRequest)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            try
+            {
+                await _basketProductRepository.DecreaseProductToBasket(addProductToBasketRequest);
+                return Ok(new { Message = "Decrease product to basket successful." });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = ex.Message });
+            }
+        }
     }
 }

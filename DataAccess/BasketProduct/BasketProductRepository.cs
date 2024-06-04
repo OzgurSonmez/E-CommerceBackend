@@ -71,5 +71,40 @@ namespace DataAccess.BasketProduct
                 }
             }
         }
+
+        public async Task DeleteproductToBasket(int basketId, int productId)
+        {
+            using (OracleConnection conn = _dbContext.GetConnection())
+            {
+                string query = "declare  p_basketId number := :v_basketId; p_productId number := :v_productId; begin  basketProductManager_pkg.deleteProductFromBasket(p_basketId,p_productId); end;";
+                using (OracleCommand command = new OracleCommand(query, conn))
+                {
+                    command.Parameters.Add("basketId", OracleDbType.Varchar2).Value = basketId;
+                    command.Parameters.Add("productId", OracleDbType.Varchar2).Value = productId;
+
+
+                    conn.Open();
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+
+        public async Task DecreaseProductToBasket(AddProductToBasketRequest addProductToBasketRequest)
+        {
+            using (OracleConnection conn = _dbContext.GetConnection())
+            {
+                string query = "declare v_basketProduct basketProduct_type := basketProduct_type(:basketId, :productId, :productQuantity, :isSelected); begin  basketProductManager_pkg.decreaseProductFromBasket(v_basketProduct); end;";
+                using (OracleCommand command = new OracleCommand(query, conn))
+                {
+                    command.Parameters.Add("basketId", OracleDbType.Varchar2).Value = addProductToBasketRequest.BasketId;
+                    command.Parameters.Add("productId", OracleDbType.Varchar2).Value = addProductToBasketRequest.ProductId;
+                    command.Parameters.Add("productQuantity", OracleDbType.Varchar2).Value = addProductToBasketRequest.ProductQuantity;
+                    command.Parameters.Add("isSelected", OracleDbType.Varchar2).Value = addProductToBasketRequest.IsSelected;
+
+                    conn.Open();
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
     }
 }
