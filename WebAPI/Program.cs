@@ -5,6 +5,7 @@ using DataAccess.BasketProduct;
 using DataAccess.Brand;
 using DataAccess.Category;
 using DataAccess.Customer;
+using DataAccess.DeliveryAddress;
 using DataAccess.Email;
 using DataAccess.Product;
 using Microsoft.Extensions.DependencyInjection;
@@ -79,6 +80,13 @@ builder.Services.AddScoped<BasketRepository>(sp =>
 {
     var dbContext = sp.GetRequiredService<OracleDbContext>();
     return new BasketRepository(dbContext);
+});
+
+// Configure dependency injection for BasketRepository
+builder.Services.AddScoped<DeliveryAddressRepository>(sp =>
+{
+    var dbContext = sp.GetRequiredService<OracleDbContext>();
+    return new DeliveryAddressRepository(dbContext);
 });
 
 // CORS

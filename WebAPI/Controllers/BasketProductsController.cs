@@ -112,5 +112,25 @@ namespace WebAPI.Controllers
                 return StatusCode(500, new { Message = ex.Message });
             }
         }
+
+
+        [HttpGet("getSelectedBasketProductByCustomerId")]
+        public async Task<IActionResult> GetSelectedBasketProductByCustomerId([FromQuery] int customerId)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            try
+            {
+                var selectedBasketProducts = await _basketProductRepository.GetSelectedBasketProductByCustomerId(customerId);
+                return Ok(selectedBasketProducts);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = ex.Message });
+            }
+        }
     }
 }
